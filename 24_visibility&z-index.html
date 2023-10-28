@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visibility and z-axis</title>
+</head>
+<style>
+    .BOX{
+        height: 170px;
+        width: 170px;
+        border: 2px solid black;
+    }
+    #rav1{
+        z-index: 2;
+        position: relative;
+        top: 50px;
+        background-color: green;
+    }
+    #rav2{
+        z-index: 1;
+        position: relative;
+        top: 30px;
+        /* z-index: ; is used to specify/sort the z axis  position of an element */
+        /* z-index: ; will work only for position: relative , absolute , fixed or sticky */
+        /* display: none;
+         will hide the element and the space */
+
+        /* visibility: hidden; 
+         will hide the element but not the space */
+
+        background-color: red;
+    }
+    #rav3{
+        background-color:  blue;
+    }
+    #rav4{
+        background-color: yellow;
+    }
+</style>
+<body>
+    <div class="BOX" id="rav1"></div>
+    <div class="BOX" id="rav2"></div>
+    <div class="BOX" id="rav3"></div>
+    <div class="BOX" id="rav4"></div>
+    
+</body>
+</html>

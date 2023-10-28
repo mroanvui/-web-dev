@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animations</title>
+</head>
+<style>
+.container{
+    background-color: greenyellow;
+    padding: 30px 30px;
+}
+.box{
+    display: flex;
+    color: white;
+    border: 2px solid red;
+    background-color: gray;
+    padding: 30px;
+    width: 25px;
+    position: relative;
+    /* animation: Ravi1 3s ease-in-out 0s infinite forwards; */
+    
+    animation-fill-mode: inherit;
+}
+@keyframes Ravi1{
+  0%{
+    top: 0px;
+    left: 0px;
+  }
+  100%{
+    top: 0px;
+    left: 830px;
+  }
+ 
+}
+    
+</style>
+<body>
+    <div class="container">
+        <div class="box">Box1</div>
+    </div>
+    
+</body>
+</html>

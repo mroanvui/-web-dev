@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more selectors</title>
+</head>
+<style>
+    body{
+        background: linear-gradient(to right,#ed7fd4 0%,rgb(192 242 243) 100%);
+    }
+h1{
+    background-color: beige;
+    color: salmon;
+    font-weight: bold;
+    text-align: center;
+}
+div p{
+    /* background-color: beige; */
+    /* color: salmon; */
+}
+
+/* div>p = affects only direct child of div*/
+/* div > p{ 
+background-color: beige;
+    color: salmon;
+} */
+
+/* div + p = the p just after div  */
+div + p{
+    background-color: beige;
+    color: salmon;
+}
+</style>
+<body>
+    <h1>this  is more on selectors</h1>
+    <div class="container">
+        <div class="box">
+            <ul><li><p>this is paragraph inside list</p></li>
+                    <p>this para is in li</p>
+            </ul>
+            <p>innermost paragraph</p>
+
+        </div>
+        <p>middle paragraph</p>
+    </div>
+    <p>outer most paragraph</p>
+</body>
+</html>

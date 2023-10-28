@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>this is html form</h1>
+    <form action="backened.php">
+        <!-- label highlights the selected element -->
+        <div><label for="name">name</label><input type="text" name="name" id="name"> </div> <br>
+        <div><label for="branch">branch</label><select name="branch" id="branch">
+                <option value="electrical">electrical</option>
+                <option value="mechanical" selected>mechanical</option>
+                <option value="civil">civil</option>
+            </select></div><br>
+        <div> roll <input type="text" name="roll"> </div><br>
+        <div> email <input type="email" name=" Email" id=""> </div><br>
+        <div>date: <input type="date" name="date" id=""></div><br>
+        <div>reg. no.: <input type="number" name="reg. no." id=""></div><br>
+
+        <div><label for="hl">have laptop: </label><input type="checkbox" name="have laptop or nor" id="hl" checked>
+        </div><br>
+        <div>gender: male<input type="radio" name="gender" id=""> female<input type="radio" name="gender" id=""> </div>
+        <br>
+        <div>write about yourself <br><textarea name="write about yourself" id="" cols="60" rows="2"></textarea> </div>
+        college <select name="college" id="college">
+            <option value="mit">mit</option>
+            <option value="gec">gec</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit now">
+        <input type="reset" value="reset ">
+
+    </form>
+
+</body>
+
+</html>

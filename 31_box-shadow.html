@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow and text shadow</title>
+</head>
+<style>
+.container{
+    display: flex;
+     /* justify-content: center; */
+}
+.card{
+    background-color: blanchedalmond;
+    /* text-align: center; */
+    padding: 23px 12px;
+    margin: 23px 12px;
+    /* border: 2px solid red; */
+    /* box-shadow: 10px 10px green; */
+    /* box-shadow: -8px -8px  green; */
+    /* box-shadow: -8px -8px 5px green; */
+    /* box-shadow: 2px 16px 15px green; */
+    /* box-shadow: 2px 16px 15px 1px rgba(56 166 166 / 78%); */
+    /* box-shadow: inset 10px 10px green; */
+    /* box-shadow: inset 10px 10px green, 10px 10px red; */
+    /* box-shadow: inset 8px 8px green, inset 10px 10px red; */
+    box-shadow:  8px 8px green,  10px 10px red;
+
+   
+   
+}
+.card h2{
+    /* text-shadow: 2px 2px grey; */
+    text-shadow: 2px 2px 1px green;
+}
+</style>
+
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+         <h2>Card 1</h2> 
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi assumenda, sint veritatis earum magnam fugiat minus nulla dolorum voluptatem perferendis vitae architecto quo corrupti quas consequatur molestiae odit, itaque fugit, sed officia cupiditate vero.</p>  
+        </div>
+        <div class="card" id="card2">
+         <h2>Card 2</h2> 
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quis asperiores facilis aliquam at officia rem fuga excepturi suscipit voluptate, quibusdam officiis perspiciatis modi placeat culpa debitis dicta vero, nam aut sit. Quo, dicta?</p>
+        </div>
+        <div class="card" id="card3">
+          <h2>Card 3</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis velit delectus odit magnam quia, ipsam asperiores ex qui, incidunt dolor, autem optio doloremque voluptatum. Similique ut, illum quam rem accusantium nostrum et repudiandae consequatur.</p>  
+        </div>
+    </div>
+
+</body>
+
+</html>
